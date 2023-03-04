@@ -4,7 +4,7 @@ import { FaReddit } from "react-icons/fa";
 
 const PersonalHome: React.FC = () => {
 	return (
-		<Flex direction="column" bg="white" borderRadius={4} cursor="pointer" border="1px solid" borderColor="gray.300" position="sticky">
+		<Flex direction="column" bg="white" borderRadius={4} border="1px solid" borderColor="gray.300" position="sticky">
 			<Flex
 				align="flex-end"
 				color="white"
@@ -23,8 +23,10 @@ const PersonalHome: React.FC = () => {
 				</Flex>
 				<Stack spacing={3}>
 					<Text fontSize="9pt">Your personal Reddit frontpage, built for you.</Text>
-					<Button height="30px">Create Post</Button>
-					<Button variant="outline" height="30px">
+					<Button height="30px" cursor="pointer">
+						Create Post
+					</Button>
+					<Button variant="outline" height="30px" cursor="pointer">
 						Create Community
 					</Button>
 				</Stack>
