@@ -5,15 +5,15 @@ This project is a Reddit clone that includes almost all features of Reddit. User
 
 ## Table of Contents
 
- - [Features](#)
- - [Technologies Used](#)
- - [Setup and Installation](#)
- - [Usage](#)
- - [Demo](#)
- - [Screenshots](#)
- - [References](#)
- - [Contributing](#)
- - [Contact](#)
+ - [Features](#features)
+ - [Technologies Used](#tech-stack-used)
+ - [Setup and Installation](#setup-and-installation)
+ - [Usage](#usageexamples)
+ - [Demo](#reddit-clone#demo)
+ - [Screenshots](#screenshots)
+ - [References](#references)
+ - [Contributing](#contributing)
+ - [Contact](#feedback--contact)
 
 
 ## Features
