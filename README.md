@@ -9,7 +9,7 @@ This project is a Reddit clone that includes almost all features of Reddit. User
  - [Technologies Used](#tech-stack-used)
  - [Setup and Installation](#setup-and-installation)
  - [Usage](#usageexamples)
- - [Demo](#reddit-clone#demo)
+ - [Demo](#demo)
  - [Screenshots](#screenshots)
  - [References](#references)
  - [Contributing](#contributing)
