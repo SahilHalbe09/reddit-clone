@@ -1,38 +1,135 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Reddit CLone
 
-First, run the development server:
+This project is a Reddit clone that includes almost all features of Reddit. Users can create communities, join and leave communities, create posts, upvote and downvote posts, comment under posts, and log in and sign up with email and password or Google. The project is built in TypeScript, using Firebase as the database, authentication, and backend, Chakra UI for the interface, React and Next.js as the frontend framework, and Recoil for state management.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ - [Features](#)
+ - [Technologies Used](#)
+ - [Setup and Installation](#)
+ - [Usage](#)
+ - [Demo](#)
+ - [Screenshots](#)
+ - [References](#)
+ - [Contributing](#)
+ - [Contact](#)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Features
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Create communities
+- Join and leave communities
+- Create posts
+- Upvote and downvote posts
+- Comment under posts
+- Log in and sign up with email and password or Google
+- Delete posts and comments
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Tech Stack Used
 
-To learn more about Next.js, take a look at the following resources:
+**Client:** NextJS, React, Chakra UI, TypeScript, Recoil
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Server:** Google Firebase
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Setup and Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run this project locally, you'll need to follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone this repository using commend:
+`git clone https://github.com/SahilHalbe09/reddit-clone.git`
+
+2. Install dependencies by running `npm install` or `yarn install`
+
+3. Create a new Firebase project and add your Firebase configuration to a .env.local file in the root directory. You can find your Firebase configuration in the Firebase console under "Settings" > "General" > "Your apps" > "Firebase SDK snippet".
+
+4. Run `npm run dev` or `yarn dev` to start the development server.
+
+5. Open your web browser and navigate to `http://localhost:3000` to view the application.
+
+    
+## Usage/Examples
+
+Note: To use some `write` features, you need to login/signup to the app.
+
+- Logging in and Signing up
+    - Click the "Log In" or "Sign Up" button in the navbar.
+    - Enter your email and password or click the "Continue with Google" button.
+    - Click "Log In" or "Sign Up" to log in or sign up.
+
+---
+---
+
+- Creating a Community
+    - Click the "Create Community" button in the dropdown menu on home screen.
+    - Fill out the form with a Name, and Community type.
+    - Click "Create" to create the community.
+
+---
+---
+
+- Joining and Leaving a Community
+    - Click the name of the community you want to join or leave.
+    - Click the "Join" or "Leave" button.
+
+---
+---
+
+- Creating a Post
+    - Click on the Community and click "Crate Post".
+    - Fill out the form with a title and optional text. (You can add images and videos to the post).
+    - Click "Post" to upload the post.
+
+---
+---
+- Upvoting and Downvoting a Post
+    - Click the up arrow to upvote a post or the down arrow to downvote a post.
+
+---
+---
+
+- Commenting under a Post
+    - Scroll to the bottom of the post.
+    - Fill out the comment form with your comment.
+    - Click "Comment" to post the comment.
+
+---
+---
+
+- Deleting a Post or Comment
+    - Click the "Delete" button next to the post or comment you want to delete.
+
+
+## Demo
+
+Here is the video demo of the project:
+
+https://www.youtube.com/watch?v=EG5cysZMED4
+
+
+## Screenshots
+
+### Home page
+![Home page](https://i.paste.pics/M5I43.png)
+
+### Single Post Page
+![Single Post](https://i.paste.pics/M5I59.png)
+
+### Community Page
+![Community Page](https://i.paste.pics/M5I5N.png)
+## References
+
+This project is inspired by [Shadee Merhi](https://www.youtube.com/@shadmerhi) and [freecodecamp.org](https://www.youtube.com/@freecodecamp)
+
+Thanks for the amazing tutorial and detailed explanation!
+## Contributing
+
+Contributions are always welcome!
+
+
+## Feedback / Contact
+
+If you have any feedback, please reach out to me at sahilhalbe.business@gmail.com
+
