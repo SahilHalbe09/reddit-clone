@@ -1,5 +1,5 @@
 
-# Reddit CLone
+# Reddit Clone
 
 This project is a Reddit clone that includes almost all features of Reddit. Users can create communities, join and leave communities, create posts, upvote and downvote posts, comment under posts, and log in and sign up with email and password or Google. The project is built in TypeScript, using Firebase as the database, authentication, and backend, Chakra UI for the interface, React and Next.js as the frontend framework, and Recoil for state management.
 
