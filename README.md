@@ -11,7 +11,6 @@ This project is a Reddit clone that includes almost all features of Reddit. User
  - [Usage](#usageexamples)
  - [Demo](#demo)
  - [Screenshots](#screenshots)
- - [References](#references)
  - [Contributing](#contributing)
  - [Contact](#feedback--contact)
 
@@ -59,44 +58,27 @@ Note: To use some `write` features, you need to login/signup to the app.
     - Enter your email and password or click the "Continue with Google" button.
     - Click "Log In" or "Sign Up" to log in or sign up.
 
----
----
-
 - Creating a Community
     - Click the "Create Community" button in the dropdown menu on home screen.
     - Fill out the form with a Name, and Community type.
     - Click "Create" to create the community.
 
----
----
-
 - Joining and Leaving a Community
     - Click the name of the community you want to join or leave.
     - Click the "Join" or "Leave" button.
-
----
----
 
 - Creating a Post
     - Click on the Community and click "Crate Post".
     - Fill out the form with a title and optional text. (You can add images and videos to the post).
     - Click "Post" to upload the post.
 
----
----
 - Upvoting and Downvoting a Post
     - Click the up arrow to upvote a post or the down arrow to downvote a post.
-
----
----
 
 - Commenting under a Post
     - Scroll to the bottom of the post.
     - Fill out the comment form with your comment.
     - Click "Comment" to post the comment.
-
----
----
 
 - Deleting a Post or Comment
     - Click the "Delete" button next to the post or comment you want to delete.
@@ -108,22 +90,22 @@ Here is the video demo of the project:
 
 https://www.youtube.com/watch?v=EG5cysZMED4
 
+Here is the live version of the project:
+
+[https://leetcode-clone-by-sahil.vercel.app/](https://reddit-clone-by-sahil.vercel.app/)
+
 
 ## Screenshots
 
 ### Home page
-![Home page](https://i.paste.pics/M5I43.png)
+![Home page](https://i.ibb.co/jkvq4V5/image.png)
 
 ### Single Post Page
-![Single Post](https://i.paste.pics/M5I59.png)
+![Single Post](https://i.ibb.co/SB6KSHJ/image.png)
 
 ### Community Page
-![Community Page](https://i.paste.pics/M5I5N.png)
-## References
+![Community Page](https://i.ibb.co/zsKm4Zd/image.png)
 
-This project is inspired by [Shadee Merhi](https://www.youtube.com/@shadmerhi) and [freecodecamp.org](https://www.youtube.com/@freecodecamp)
-
-Thanks for the amazing tutorial and detailed explanation!
 ## Contributing
 
 Contributions are always welcome!
